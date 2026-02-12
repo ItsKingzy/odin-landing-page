@@ -1,7 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-    flex: 1;
     font-family: 'Roboto';
     margin: 0;
 }
@@ -13,7 +12,6 @@ body {
     flex-direction: column;
     background-color: #1F2937;
     gap: 100px;
-
 }
 
 /* Header 1 */
@@ -99,12 +97,19 @@ a {
 .content-1 .items {
     display: flex;
     justify-content: center;
+    gap: 64px;
+    flex-wrap: wrap;
 }
 
 .content-1 .item {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    width: 256px;
+}
+
+.content-1 img {
+    width: 128px;
 }
 
 .content-1 .item p {
