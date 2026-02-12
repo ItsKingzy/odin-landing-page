@@ -5,6 +5,7 @@ body {
 /* HEADER */
 .header {
     display: flex;
+    flex-direction: column;
     background-color: #1F2937;
 }
 
@@ -14,6 +15,7 @@ body {
 }
 
 ul {
+    display: flex;
     list-style: none;
 }
 
