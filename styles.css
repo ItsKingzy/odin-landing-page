@@ -79,3 +79,36 @@ a {
 .header-2 .right {
     display: flex;
 }
+
+
+
+
+/* CONTENT SECTION 1 */
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-1 .title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.content-1 .items {
+    display: flex;
+    justify-content: center;
+}
+
+.content-1 .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-1 .item p {
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+}
