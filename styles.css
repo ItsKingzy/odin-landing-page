@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto';
+    margin: 0;
 }
 
 /* HEADER */
@@ -23,7 +24,9 @@ body {
 
 ul {
     display: flex;
+    gap: 24px;
     list-style: none;
+    padding: 0;
 }
 
 a {
