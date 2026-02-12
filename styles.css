@@ -10,6 +10,7 @@ body {
     background-color: #1F2937;
 }
 
+/* Header 1 */
 .header-1 {
     display: flex;
     justify-content: space-between;
@@ -32,4 +33,42 @@ ul {
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+
+/* Header 2 */
+.header-2 {
+    display: flex;
+    gap: 32px;
+}
+
+.header-2 .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-2 .left .title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-2 .left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-2 .left .sign-up {
+    width: 90px;
+    height: 30px;
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 8px;
+}
+
+
+
+.header-2 .right {
+    
 }
