@@ -1,14 +1,19 @@
 body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     font-family: 'Roboto';
     margin: 0;
 }
 
 /* HEADER */
 .header {
+    padding: 0 200px;
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
     gap: 100px;
+
 }
 
 /* Header 1 */
@@ -36,7 +41,6 @@ a {
     text-decoration: none;
     color: #E5E7EB;
 }
-
 
 /* Header 2 */
 .header-2 {
@@ -72,8 +76,6 @@ a {
     font-weight: bold;
 }
 
-
-
 .header-2 .right {
-    
+    display: flex;
 }
