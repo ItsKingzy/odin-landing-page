@@ -92,18 +92,20 @@ a {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    margin: 48px;
 }
 
 .content-1 .items {
     display: flex;
     justify-content: center;
-    gap: 64px;
+    gap: 48px;
     flex-wrap: wrap;
+    margin-bottom: 128px;
 }
 
 .content-1 .item {
     box-sizing: border-box;
-    width: 160px;
+    width: 168px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,7 +115,7 @@ a {
     /* Border box CSS
     Source: https://www.w3schools.com/css/css3_box-sizing.asp */
     box-sizing: border-box;
-    width: 160px;
+    width: 168px;
     padding: 16px;
     border: 4px solid #3882F6;
     border-radius: 16px;
@@ -121,6 +123,6 @@ a {
 
 .content-1 .item p {
     font-size: 18px;
-    color: #1F2937;
+    color: #6B747F;
     text-align: center;
 }
