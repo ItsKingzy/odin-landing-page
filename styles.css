@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    gap: 100px;
 }
 
 /* Header 1 */
@@ -28,6 +29,7 @@ ul {
     gap: 24px;
     list-style: none;
     padding: 0;
+    margin: 24px 0px;
 }
 
 a {
@@ -40,6 +42,7 @@ a {
 .header-2 {
     display: flex;
     gap: 32px;
+    margin-bottom: 100px;
 }
 
 .header-2 .left {
@@ -60,11 +63,13 @@ a {
 }
 
 .header-2 .left .sign-up {
-    width: 90px;
+    width: 100px;
     height: 30px;
     background-color: #3882F6;
     border: 0;
-    border-radius: 8px;
+    border-radius: 6px;
+    color: #E5E7EB;
+    font-weight: bold;
 }
 
 
