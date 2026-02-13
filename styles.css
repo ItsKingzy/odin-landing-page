@@ -183,9 +183,20 @@ a {
 
 }
 
-.footer .container .left p {
-    margin: 0;
+.footer .container .left .title {
+    font-weight: 500;
+    color: #F9FAF8;
+    font-size: 24px;
 }
+
+.footer .container .left .signup-subtext {
+    margin: 0;
+    font-weight: 100;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+
 
 
 
