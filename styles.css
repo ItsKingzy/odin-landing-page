@@ -155,3 +155,29 @@ a {
     font-weight: bold;
     color: #1F2937;
 }
+
+
+
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+.footer .container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 864px;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
+    background-color: #3882F6;
+    padding: 32px;
+    margin: 80px auto;
+
+}
+
+
+
