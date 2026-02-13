@@ -135,8 +135,15 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 24px;
     background-color: #E5E7EB;
-    padding: 128px 400px;
+    padding: 128px 200px;
+}
+
+.content-2 .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 780px;
 }
 
 .quote {
@@ -173,12 +180,9 @@ a {
     justify-content: center;
     align-items: center;
     gap: 128px;
-
     background-color: #3882F6;
-
     padding: 36px;
     margin: 80px auto;
-
     border-radius: 8px;
 
 }
