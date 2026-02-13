@@ -173,10 +173,18 @@ a {
     justify-content: center;
     align-items: center;
     gap: 128px;
+
     background-color: #3882F6;
+
     padding: 32px;
     margin: 80px auto;
 
+    border-radius: 8px;
+
+}
+
+.footer .container .left p {
+    margin: 0;
 }
 
 
