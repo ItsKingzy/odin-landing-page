@@ -176,7 +176,7 @@ a {
 
     background-color: #3882F6;
 
-    padding: 32px;
+    padding: 36px;
     margin: 80px auto;
 
     border-radius: 8px;
@@ -186,14 +186,14 @@ a {
 .footer .container .left .title {
     font-weight: 500;
     color: #F9FAF8;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .footer .container .left .signup-subtext {
     margin: 0;
     font-weight: 100;
     color: #F9FAF8;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .footer .container .right .sign-up {
