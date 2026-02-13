@@ -7,9 +7,9 @@ body {
 
 /* HEADER */
 .header {
-    padding: 0 200px;
     display: flex;
     flex-direction: column;
+    padding: 0 200px;
     background-color: #1F2937;
     gap: 100px;
 }
@@ -43,6 +43,7 @@ a {
 /* Header 2 */
 .header-2 {
     display: flex;
+    justify-content: space-between;
     gap: 32px;
     margin-bottom: 100px;
 }
