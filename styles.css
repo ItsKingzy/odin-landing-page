@@ -52,6 +52,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-width: 500px;
 }
 
 .header-2 .left .title {
